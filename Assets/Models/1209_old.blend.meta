@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6f43cc11cd144db4f823204abc12109a
+guid: 3518673d99d1fe24fb1da0ecaf489e21
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -35,9 +35,11 @@ ModelImporter:
     100058: Cube_028
     100060: Cube_029
     100062: Cube_030
-    100064: Cylinder
-    100066: Cylinder_001
-    100068: Cylinder_002
+    100064: Cube_031
+    100066: Cylinder
+    100068: Cylinder_001
+    100070: Cylinder_002
+    100072: Cylinder_003
     400000: //RootNode
     400002: Cube
     400004: Cube_001
@@ -70,9 +72,11 @@ ModelImporter:
     400058: Cube_028
     400060: Cube_029
     400062: Cube_030
-    400064: Cylinder
-    400066: Cylinder_001
-    400068: Cylinder_002
+    400064: Cube_031
+    400066: Cylinder
+    400068: Cylinder_001
+    400070: Cylinder_002
+    400072: Cylinder_003
     2300000: Cube
     2300002: Cube_001
     2300004: Cube_002
@@ -104,9 +108,11 @@ ModelImporter:
     2300056: Cube_028
     2300058: Cube_029
     2300060: Cube_030
-    2300062: Cylinder
-    2300064: Cylinder_001
-    2300066: Cylinder_002
+    2300062: Cube_031
+    2300064: Cylinder
+    2300066: Cylinder_001
+    2300068: Cylinder_002
+    2300070: Cylinder_003
     3300000: Cube
     3300002: Cube_001
     3300004: Cube_002
@@ -138,9 +144,11 @@ ModelImporter:
     3300056: Cube_028
     3300058: Cube_029
     3300060: Cube_030
-    3300062: Cylinder
-    3300064: Cylinder_001
-    3300066: Cylinder_002
+    3300062: Cube_031
+    3300064: Cylinder
+    3300066: Cylinder_001
+    3300068: Cylinder_002
+    3300070: Cylinder_003
     4300000: Cylinder_002
     4300002: Cube_013
     4300004: Cube_011
@@ -175,40 +183,8 @@ ModelImporter:
     4300062: Cube_028
     4300064: Cube_029
     4300066: Cube_030
-    6400000: Cube
-    6400002: Cube_001
-    6400004: Cube_002
-    6400006: Cube_003
-    6400008: Cube_004
-    6400010: Cube_005
-    6400012: Cube_006
-    6400014: Cube_007
-    6400016: Cube_008
-    6400018: Cube_009
-    6400020: Cube_010
-    6400022: Cube_011
-    6400024: Cube_012
-    6400026: Cube_013
-    6400028: Cube_014
-    6400030: Cube_015
-    6400032: Cube_016
-    6400034: Cube_017
-    6400036: Cube_018
-    6400038: Cube_019
-    6400040: Cube_020
-    6400042: Cube_021
-    6400044: Cube_022
-    6400046: Cube_023
-    6400048: Cube_024
-    6400050: Cube_025
-    6400052: Cube_026
-    6400054: Cube_027
-    6400056: Cube_028
-    6400058: Cube_029
-    6400060: Cube_030
-    6400062: Cylinder
-    6400064: Cylinder_001
-    6400066: Cylinder_002
+    4300068: Cylinder_003
+    4300070: Cube_031
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -232,21 +208,21 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
   tangentSpace:
-    normalSmoothAngle: 38
-    splitTangentsAcrossUV: 0
-    normalImportMode: 1
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
     tangentImportMode: 1
   importAnimation: 1
   copyAvatar: 0
