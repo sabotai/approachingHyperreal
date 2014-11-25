@@ -11,6 +11,10 @@ ModelImporter:
     100010: //RootNode
     100012: Sphere
     100014: Sphere_001
+    100016: Cylinder
+    100018: Cylinder_001
+    100020: Cylinder_002
+    100022: Cylinder_003
     400000: Cube
     400002: Cube_001
     400004: Cube_002
@@ -19,6 +23,10 @@ ModelImporter:
     400010: //RootNode
     400012: Sphere
     400014: Sphere_001
+    400016: Cylinder
+    400018: Cylinder_001
+    400020: Cylinder_002
+    400022: Cylinder_003
     2300000: Cube
     2300002: Cube_001
     2300004: Cube_002
@@ -26,6 +34,10 @@ ModelImporter:
     2300008: Cube_007
     2300010: Sphere
     2300012: Sphere_001
+    2300014: Cylinder
+    2300016: Cylinder_001
+    2300018: Cylinder_002
+    2300020: Cylinder_003
     3300000: Cube
     3300002: Cube_001
     3300004: Cube_002
@@ -33,6 +45,10 @@ ModelImporter:
     3300008: Cube_007
     3300010: Sphere
     3300012: Sphere_001
+    3300014: Cylinder
+    3300016: Cylinder_001
+    3300018: Cylinder_002
+    3300020: Cylinder_003
     4300000: Cube_002
     4300002: Cube
     4300004: Cube_001
@@ -40,6 +56,10 @@ ModelImporter:
     4300008: Cube_003
     4300010: Sphere
     4300012: Sphere_001
+    4300014: Cylinder_002
+    4300016: Cylinder
+    4300018: Cylinder_001
+    4300020: Cylinder_003
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -75,7 +95,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
   tangentSpace:
-    normalSmoothAngle: 60
+    normalSmoothAngle: 101
     splitTangentsAcrossUV: 1
     normalImportMode: 1
     tangentImportMode: 1
