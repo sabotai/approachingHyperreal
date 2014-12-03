@@ -1,0 +1,11 @@
+12/3/14
+
+consider adding overlay shader for higher layers of abstraction such as
+
+-aubergines sobel effect 3
+-screen space ambient occlusion
+-hollywood night
+-wiggle
+-minmaxreduction(contrast stretch)
+-convert depth
+-radial blur
