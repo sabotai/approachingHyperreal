@@ -27,7 +27,6 @@ public class layerShift : MonoBehaviour {
 		numLayers = 1;
 
 
-
 		
 		/*
 		for (int i = 0; i < numLayers; i ++) {
@@ -43,6 +42,7 @@ public class layerShift : MonoBehaviour {
 
 		if (shiftUp) {
 			if (!initialJump){
+				Debug.Log("Cloning layer...");
 				numLayers++;
 				GameObject newLayer;
 				float yPos = 2 * layerTemplate.transform.localPosition.y - originalRoom.transform.position.y;
@@ -58,22 +58,44 @@ public class layerShift : MonoBehaviour {
 				layerList.Add (newLayer);
 				//layerList.length()
 			}
+
+
+			//replace teleport with the vertical move
+			//player.transform.position = destination.transform.position;
 			
-			player.transform.position = destination.transform.position;
+			//player.GetComponent<moveObject> ().activate = true;
+			//toggleCollider (false);
 
 			shiftUp = false;		
 		}
 
-		
+		//this only triggers once upon proximity of player
 		if (Vector3.Distance(player.transform.position,portal.transform.position) < threshold) {
-			if (latShift){
-				player.transform.position = destination.transform.position;
-			} else {
-
-			shiftUp = true;
+			//if (latShift){
+				//replace with horizontal move
+				//player.transform.position = destination.transform.position;
+			
+				player.GetComponent<moveObject> ().destinationObject = destination; //change the destination to current
+				Debug.Log ("activate player movement");
+				player.GetComponent<moveObject> ().activate = true;
+				toggleCollider (false);
+			//} else {
+			if (!latShift){
+					shiftUp = true;
 			}
 		}
+		
+		//stop moving the player if they have arrived
+		if (player.GetComponent<moveObject> ().arrivalCheck == true) {
+			player.GetComponent<moveObject> ().activate = false;
+			
+			toggleCollider (true);
+			Debug.Log ("deactivate player movement");
+		}
 
+	}
 
+	void toggleCollider(bool colliderOn){
+		player.GetComponent<CharacterController> ().enabled = colliderOn;
 	}
 }
