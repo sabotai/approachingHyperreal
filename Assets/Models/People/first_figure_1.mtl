@@ -1,0 +1,45 @@
+# MakeHuman exported MTL
+# www.makehuman.org
+
+
+newmtl young_caucasian_female_sweat
+Kd 1 1 1
+Ks 0.2039 0.1843 0.1843
+d 0
+map_Kd textures\young_lightskinned_female_diffuse.png
+map_D textures\young_lightskinned_female_diffuse.png
+
+newmtl female01Material
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+d 0
+map_Kd textures\diffuse_black.png
+map_D textures\diffuse_black.png
+
+newmtl eyegreen
+Kd 1 1 1
+Ks 1 1 1
+d 0
+map_Kd textures\green_eye.png
+map_D textures\green_eye.png
+
+newmtl male_genital01_asian
+Kd 1 0.95 0.85
+Ks 0.02745 0.02745 0.02745
+d 0
+map_Kd textures\penis01_lightskinned_diffuse.png
+map_D textures\penis01_lightskinned_diffuse.png
+
+newmtl eyebrow009
+Kd 1 1 1
+Ks 0 0 0
+d 0
+map_Kd textures\eyebrow009.png
+map_D textures\eyebrow009.png
+
+newmtl tongue01Material
+Kd 1 1 1
+Ks 0.03137 0.03137 0.03137
+d 0
+map_Kd textures\tongue01_diffuse.png
+map_D textures\tongue01_diffuse.png

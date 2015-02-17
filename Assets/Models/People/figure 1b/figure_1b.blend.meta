@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 546d02ea2804fe049937439e89c436bb
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: base_obj
+    100002: eyebrow009_obj
+    100004: eyelashes01_obj
+    100006: fhair01_obj
+    100008: //RootNode
+    100010: high-poly_obj
+    100012: penis01_obj
+    100014: tongue01_obj
+    100016: fhair01_obj_001
+    400000: base_obj
+    400002: eyebrow009_obj
+    400004: eyelashes01_obj
+    400006: fhair01_obj
+    400008: //RootNode
+    400010: high-poly_obj
+    400012: penis01_obj
+    400014: tongue01_obj
+    400016: fhair01_obj_001
+    2300000: base_obj
+    2300002: eyebrow009_obj
+    2300004: eyelashes01_obj
+    2300006: fhair01_obj
+    2300008: high-poly_obj
+    2300010: penis01_obj
+    2300012: tongue01_obj
+    2300014: fhair01_obj_001
+    3300000: base_obj
+    3300002: eyebrow009_obj
+    3300004: eyelashes01_obj
+    3300006: fhair01_obj
+    3300008: high-poly_obj
+    3300010: penis01_obj
+    3300012: tongue01_obj
+    3300014: fhair01_obj_001
+    4300000: base_obj
+    4300002: high-poly_obj
+    4300004: tongue01_obj
+    4300006: penis01_obj
+    4300008: eyebrow009_obj
+    4300010: eyelashes01_obj
+    4300012: fhair01_obj
+    4300014: fhair01_obj_001
+    6400000: base_obj
+    6400002: eyebrow009_obj
+    6400004: eyelashes01_obj
+    6400006: fhair01_obj
+    6400008: high-poly_obj
+    6400010: penis01_obj
+    6400012: tongue01_obj
+    6400014: fhair01_obj_001
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0500000007
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton:
+    - name: figure_1b(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: base_obj
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 5.96046448e-08, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eyebrow009_obj
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 5.96046448e-08, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eyelashes01_obj
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 5.96046448e-08, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: fhair01_obj
+      position: {x: 0, y: 1.04532361, z: .0460864492}
+      rotation: {x: 5.96046448e-08, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: .714165807, z: .838622332}
+      transformModified: 1
+    - name: high-poly_obj
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 5.96046448e-08, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: penis01_obj
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 5.96046448e-08, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: tongue01_obj
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 5.96046448e-08, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
