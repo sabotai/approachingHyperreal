@@ -24,7 +24,7 @@ public class fadeIn : MonoBehaviour {
 
 		*/
 
-		dofs = GameObject.Find("RightEyeAnchor").GetComponent<DepthOfFieldScatter>();
+		dofs = GetComponent<DepthOfFieldScatter>();
 		field1 = dofs.GetType().GetField("focalLength");
 		field2 = dofs.GetType().GetField("aperture");
 		f1Pos = 3f;
@@ -40,7 +40,7 @@ public class fadeIn : MonoBehaviour {
 
 
 		
-		eden = GameObject.Find("RightEyeAnchor").GetComponent<EdgeDetectEffectNormals>();
+		eden = GetComponent<EdgeDetectEffectNormals>();
 		field1A = eden.GetType().GetField("edgesOnly");
 		field2A = eden.GetType().GetField ("luminanceThreshold");
 
