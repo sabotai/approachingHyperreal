@@ -7,11 +7,13 @@ public class directRotation : MonoBehaviour {
 
 	public Transform cameraObject;
 	public bool rotateFromBehind;
-
+	public int rotationX, rotationY, rotationZ;
 
 	// Use this for initialization
 	void Start () {
-	
+		rotationX = -180;
+		rotationY = 0;
+		rotationZ = 90;
 	}
 	
 	// Update is called once per frame
@@ -22,9 +24,11 @@ public class directRotation : MonoBehaviour {
 	void LateUpdate()
 	{
 		if (rotateFromBehind) {
+			//just rotate right if the transform is facing the same direction as the cameraObject
 			transform.rotation = cameraObject.rotation * Quaternion.Euler (0, 0, -90);
-				} else {
-			transform.rotation = cameraObject.rotation * Quaternion.Euler (-180, 0, 90);
-				}
+		} else {
+			//invert the cameraObject rotation so it isnt inverted and then rotate the object around
+			transform.rotation = Quaternion.Inverse(cameraObject.rotation)* Quaternion.Euler (rotationX, rotationY, rotationZ);
+		}
 	}
 }
