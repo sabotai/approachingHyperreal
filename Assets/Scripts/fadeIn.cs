@@ -4,15 +4,18 @@ using System.Reflection;
 
 public class fadeIn : MonoBehaviour {
 
-	public string scriptTitle;
+	//public string scriptTitle;
 
 	private Component dofs, eden; 
 	private FieldInfo field1, field1A;
 	private FieldInfo field2, field2A;
-	private float f1Pos, f1PosA;
+	public float f1Pos = 3f;
+	private float f1PosA;
 	private float f2Pos, f2PosA;
 	private bool upDownSwitch;
-	private float lowThresh, highThresh, increment;
+	public float lowThresh = 0.17f;
+	public float highThresh = 3f;
+	public float increment = 0.01f;
 
 	// Use this for initialization
 	void Start () {
@@ -33,9 +36,9 @@ public class fadeIn : MonoBehaviour {
 		f1PosA = 0f;
 		f2PosA = 5f;
 		
-		lowThresh = 0.17f;
-		highThresh = 3f;
-		increment = 0.01f;
+		//lowThresh = 0.17f;
+		//highThresh = 3f;
+		//increment = 0.01f;
 		upDownSwitch = false;
 
 
@@ -55,7 +58,7 @@ public class fadeIn : MonoBehaviour {
 			field2.SetValue (dofs, f2Pos);
 			f1Pos -= increment;
 			if (f2Pos < 26.6){
-				f2Pos += increment*10f;}
+				f2Pos += increment;}
 		}
 		if (f1PosA < 1) {
 			

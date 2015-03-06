@@ -35,11 +35,14 @@ public class deform : MonoBehaviour {
 		
 		// recalculate normals for correct shading
 		GetComponent<MeshFilter>().mesh.RecalculateNormals();
-		
+
+
+		/*
 		// optional: visualize normals
 		foreach ( Vector3 vector in workingCopy ) {
 			Debug.DrawRay ( transform.TransformPoint ( vector ), 
 			               GetComponent<MeshFilter>().mesh.normals[ workingCopy.IndexOf(vector) ] );
 		}
+		*/
 	}
 }

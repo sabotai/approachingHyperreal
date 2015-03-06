@@ -555,7 +555,8 @@ public class OVRDisplay
     public void SetViewport(int x, int y, int w, int h)
     {
 #if !UNITY_ANDROID || UNITY_EDITOR
-        OVR_SetViewport(x, y, w, h);
+		//OVR_SetViewport(x, y, w, h); //original
+		OVR_SetViewport(x,y, (int)(Screen.width*.5f), Screen.height);
 #endif
     }
 
