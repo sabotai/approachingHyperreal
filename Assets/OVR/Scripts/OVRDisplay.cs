@@ -29,6 +29,7 @@ using Ovr;
 /// </summary>
 public class OVRDisplay
 {
+	public bool occupyHalf = false;
 	/// <summary>
 	/// Specifies the size and field-of-view for one eye texture.
 	/// </summary>
@@ -555,8 +556,13 @@ public class OVRDisplay
     public void SetViewport(int x, int y, int w, int h)
     {
 #if !UNITY_ANDROID || UNITY_EDITOR
-		//OVR_SetViewport(x, y, w, h); //original
-		OVR_SetViewport(x,y, (int)(Screen.width*.5f), Screen.height);
+		if (occupyHalf){
+			OVR_SetViewport(x,y, (int)(Screen.width*.5f), Screen.height);
+
+		} else {
+			OVR_SetViewport(x, y, w, h); //original
+
+		}
 #endif
     }
 

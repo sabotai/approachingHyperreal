@@ -53,7 +53,7 @@ public class fadeIn : MonoBehaviour {
 	void Update () {
 
 		if ((f1Pos >= lowThresh) && (f1Pos <= highThresh)) {
-			Debug.Log ("increase pos");
+			//Debug.Log ("increase pos");
 			field1.SetValue (dofs, f1Pos);
 			field2.SetValue (dofs, f2Pos);
 			f1Pos -= increment;
@@ -66,7 +66,7 @@ public class fadeIn : MonoBehaviour {
 			f1PosA+=0.01f;		
 		}
 		if (f2PosA > 0.0001f){
-			field2A.SetValue (eden, f2PosA);
+			//field2A.SetValue (eden, f2PosA);
 			f2PosA -= 0.01f;
 		}
 	}

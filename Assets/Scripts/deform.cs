@@ -31,7 +31,7 @@ public class deform : MonoBehaviour {
 		// put the new data back into the model
 		GetComponent<MeshFilter>().mesh.vertices = workingCopy.ToArray();
 		// put the visual mesh data into the physics collider data
-		GetComponent<MeshCollider>().sharedMesh = GetComponent<MeshFilter>().mesh;
+		//GetComponent<MeshCollider>().sharedMesh = GetComponent<MeshFilter>().mesh;
 		
 		// recalculate normals for correct shading
 		GetComponent<MeshFilter>().mesh.RecalculateNormals();
