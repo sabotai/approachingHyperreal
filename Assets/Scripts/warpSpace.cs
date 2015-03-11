@@ -45,7 +45,7 @@ public class warpSpace : MonoBehaviour {
 
 		if (changePosition) {
 						targetObject.transform.localPosition = (Vector3.ClampMagnitude (targetObject.transform.localPosition - (position * positionMultiplier), clampAmount*100f)); 
-						Debug.Log (targetObject.transform.localPosition);
+						//Debug.Log (targetObject.transform.localPosition);
 				}//targetObject.transform.localScale = targetOriginalScale - position;
 
 		//Vector3 newScale = new Vector3 (position.

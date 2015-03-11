@@ -29,7 +29,7 @@ using Ovr;
 /// </summary>
 public class OVRDisplay
 {
-	public bool occupyHalf = false;
+	public bool occupyHalf = true;
 	/// <summary>
 	/// Specifies the size and field-of-view for one eye texture.
 	/// </summary>
