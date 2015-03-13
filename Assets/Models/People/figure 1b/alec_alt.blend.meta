@@ -335,51 +335,51 @@ ModelImporter:
     - boneName: upper_arm_L
       humanName: LeftUpperArm
       limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
+        min: {x: -48.2296562, y: -98.2775116, z: -44.497612}
+        max: {x: 59.4258385, y: 53.4928131, z: 48.3253479}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: upper_arm_R
       humanName: RightUpperArm
       limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
+        min: {x: -52.0526314, y: -100, z: -44.4976082}
+        max: {x: 53.220089, y: 62.1052551, z: 48.3253593}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: forearm_L
       humanName: LeftLowerArm
       limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
+        min: {x: -62.4000015, y: 0, z: -67.9000015}
+        max: {x: 5.59800005, y: 0, z: 80}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: forearm_R
       humanName: RightLowerArm
       limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
+        min: {x: -62.4401932, y: 0, z: -67.9425812}
+        max: {x: 5.5980835, y: 0, z: 80}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: hand_L
       humanName: LeftHand
       limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
+        min: {x: 0, y: 0, z: -26.6028709}
+        max: {x: 0, y: 40, z: 50.717701}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: hand_R
       humanName: RightHand
       limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
+        min: {x: 0, y: -19.3301392, z: -26.6028709}
+        max: {x: 0, y: 40.0956917, z: 50.7177086}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: eye_L
       humanName: LeftEye
       limit:
@@ -390,14 +390,6 @@ ModelImporter:
         modified: 0
     - boneName: eye_R
       humanName: RightEye
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: jaw
-      humanName: Jaw
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
@@ -1060,11 +1052,11 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
+    armTwist: .064000003
+    foreArmTwist: .203999996
+    upperLegTwist: .51700002
     legTwist: .5
-    armStretch: .0500000007
+    armStretch: .261999995
     legStretch: .0500000007
     feetSpacing: 0
     rootMotionBoneName: 

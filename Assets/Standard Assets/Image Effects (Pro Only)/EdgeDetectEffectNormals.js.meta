@@ -4,6 +4,6 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - edgeDetectShader: {fileID: 4800000, guid: 0d1644bdf064147baa97f235fc5b4903, type: 3}
-  executionOrder: 0
+  executionOrder: 1800
   icon: {instanceID: 0}
   userData: 
