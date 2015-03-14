@@ -7,13 +7,12 @@ public class directRotation : MonoBehaviour {
 
 	public Transform cameraObject;
 	public bool rotateFromBehind;
-	public int rotationX, rotationY, rotationZ;
+	public int rotationX = -180;
+	public int rotationY = 0;
+	public int rotationZ = 90;
 
 	// Use this for initialization
 	void Start () {
-		rotationX = -180;
-		rotationY = 0;
-		rotationZ = 90;
 	}
 	
 	// Update is called once per frame
