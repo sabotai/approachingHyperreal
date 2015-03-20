@@ -22,8 +22,6 @@ public class SetRenderQueueWithChildren : MonoBehaviour {
 		
 		Renderer[] rendererz = gameObject.GetComponentsInChildren<Renderer>();
 		foreach (Renderer rend in rendererz) {
-			//rend.materials.renderQueue = queuePosition;
-			Debug.Log (rend.materials);
 			for (int i = 0; i < rend.materials.Length && i < m_queues.Length; ++i) {
 				rend.materials[i].renderQueue = m_queues[i];
 			}
