@@ -81,8 +81,20 @@ public class ScreenFadeInOut : MonoBehaviour
 		FadeToWhite ();
 
 		// If the screen is almost black...
-		if(guiTexture.color.a >= 0.95f)
-			// ... reload the level.
-			Application.LoadLevel(0);
+		if(guiTexture.color.a >= 0.95f){
+			// ... load the next level.
+			
+			int lvlIndex = Application.loadedLevel;
+			int levelCount = Application.levelCount;
+			int loadMe = lvlIndex;
+			if (lvlIndex < levelCount){
+				loadMe = lvlIndex + 1;
+			} else {
+				loadMe = 0;
+			}
+			
+
+			Application.LoadLevel(loadMe);
+		}
 	}
 }

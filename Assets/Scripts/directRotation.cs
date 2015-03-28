@@ -41,8 +41,7 @@ public class directRotation : MonoBehaviour {
 				if (rotateFromBehind){
 					temp = cameraObject.rotation * Quaternion.Euler (0, 0, -90);
 				}	else {
-					temp = cameraObject.rotation * Quaternion.Euler (rotationX, rotationY, rotationZ);
-
+					temp = cameraObject.rotation * Quaternion.Euler (rotationX , rotationY, rotationZ );
 			}
 
 				transform.localRotation = Quaternion.Euler (transform.eulerAngles.x, temp.eulerAngles.y, transform.eulerAngles.z);

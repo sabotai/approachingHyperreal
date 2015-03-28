@@ -5,7 +5,7 @@ public class CharacterMovement : MonoBehaviour {
 
 	//script credit:http://mecwarriors.com/2013/11/22/humanoid-animation-free-root-motion/
 
-
+	public bool useAdditiveRotation;
 	Transform mainCamera;      //holds the main camera as a Transform object
 	Animator animController;   //holds the player character's animator controller
 
@@ -44,8 +44,18 @@ public class CharacterMovement : MonoBehaviour {
 		Vector3 lookDirection = targetDirection.normalized;
 
 		//rotate the player to face the correct direction ONLY if there is any player input
-		if (lookDirection != Vector3.zero)
-			transform.rotation = Quaternion.LookRotation(lookDirection);
+		if (lookDirection != Vector3.zero){
+			if (useAdditiveRotation){
+				/*
+				Vector3 temp = lookDirection - Vector3.Normalize(transform.rotation.eulerAngles);
+				Debug.Log (lookDirection + " vs " + temp);
+				transform.rotation = Quaternion.Euler(temp);
+				*/
+			} else {
+
+				transform.rotation = Quaternion.LookRotation(lookDirection);
+			}
+		}
 
 		//if there is any player input...
 		if (verticalAxis != 0 || horizontalAxis != 0)

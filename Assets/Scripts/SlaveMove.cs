@@ -22,7 +22,7 @@ public class SlaveMove : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 		Vector3 move = master.localPosition - startLocation;
-		Debug.Log ("Move is " + move);
+		//Debug.Log ("Move is " + move);
 
 		if (usingRigidBody){
 			rigidbody.MovePosition(transform.position + move * Time.deltaTime * 50f);
